@@ -36,3 +36,149 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(243, 246, 252);
+}
+
+div {
+  font-family: 'Roboto' !important;
+}
+
+.ant-input {
+  font-family: 'Roboto';
+}
+
+.layout {
+  background-color: rgb(243, 246, 252);
+  font-family: 'Roboto' !important;
+}
+
+.header {
+  background-color: rgb(243, 246, 252);
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.headerBell {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.headerName {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.headAvatar {
+  width: 24px;
+  height: 24px;
+  background-color: #f1896b;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+}
+
+.headerPC {
+  height: 90px;
+}
+
+.headerMobile {
+  margin-bottom: 20px;
+  color: #223273;
+}
+
+.headerMobileName {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
+.headerComment {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Roboto Light';
+}
+
+.searchInputPC {
+  position: absolute;
+  right: 25px;
+  top: 60px;
+  width: 222px;
+  height: 40px;
+  border: 1px solid #c4c4c4;
+}
+
+.searchInputMobile {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #787878;
+  border-radius: 0;
+}
+
+.projectHeader {
+  margin-top: 60px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #223273;
+  font-family: 'Roboto Medium';
+}
+
+.listItem {
+  position: relative;
+  height: 70px;
+  line-height: 70px;
+  background-color: #fff;
+  margin: 10px 0;
+  box-shadow: 0 4px 20px 0 rgba(120, 120, 120, 0.15);
+  border-radius: 8px;
+  font-family: Roboto;
+}
+
+.coloredBar {
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: #87d068;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.projectAvatar {
+  width: 28px;
+  height: 28px;
+  background-color: #87d068;
+  margin-left: 20px;
+}
+
+.projectName {
+  font-weight: bold;
+}
+
+.dashboardWrapper {
+  /* display: inline-block; */
+  background-color: #CCF5E3;
+  border: 1px solid #00CC74;
+  border-radius: 4px;
+  color: #00CC74;
+  padding: 4px 16px;
+}
+
+.deleteButton {
+  padding: 10px;
+  font-family: Roboto;
+}
+
+.ant-list-item-meta-title {
+  font-size: 16px;
+}
+
+.ant-list-item-meta-description {
+  font-size: 14px;
+}
